@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="CONTOH SOAL 1"/>
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Dalam arisan keluarga, ada 23 peserta. Pada saat pembukaan arisan, ada 3 yang mungkin bisa menang. Dibuat gulungan kertas 23 yang 3 diantaranya diberi tanda menang. Seorang anggota arisan mengambil sebuah gulungan kertas.\n
+a.	berapa peluang bahwa dia menang ?\n
+"/>
+
+        <ImageView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/soal1" />
+
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. berapa peluangnya dia tidak menang ?"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTOH SOAL 2"/>
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Sebuah RT terdiri dari 200 keluarga. 150 diantaranya 	berlangganan kompas, 90 diantaranya lagi berlangganan PR. 	Diantara yang berlangganan kompas ada 60 yang juga 	berlangganan PR.\n
+Pada suatu saat, kita bertemu dengan salah seorang 	   anggota keluarga diatas. Berapa peluangnya bahwa orang 	   tersebut adalah anggota keluarga yang berlangganan 	   kompas/PR/kedua-duanya\n
+a. Pada suatu saat, kita bertemu dengan salah seorang 	   anggota keluarga diatas. Berapa peluangnya bahwa orang 	   tersebut adalah anggota keluarga yang berlangganan 	   kompas/PR/kedua-duanya"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="312dp"
+            android:layout_height="54dp"
+            android:src="@drawable/zsoal" />
+<TextView
+    android:textColor="@color/Hitam"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="b.	Berapa peluang bahwa orang yang kita jumpai itu keluarga yang 	tidak berlangganan Kompas juga tidak berlangganan PR ?"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="305dp"
+            android:layout_height="98dp"
+            android:src="@drawable/soal2" />
+
+
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="CONTOH SOAL 3"/>
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=": Seorang suami istri mempunyai anak 3 orang \n
+            a.	Gambarkan ruang sampel S yang menyatakan susunan jenis kelamin   	dari anak tersebut !
+	Untuk memudahkan penggambaran ruang sampel, digunakan diagram pohon (tree diagram)
+"/>
+
+        <ImageView
+            android:layout_width="141dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal4" />
+
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b.	Berapa peluangnya bahwa susuna jenis kelamin anak tersebut 	terdiri dari 2 anak laki-laki?"/>
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal5" />
+
+        <TextView
+            android:textColor="@color/Hitam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c.	Berapa peluangnya bahwa susunan jenis kelamin anak tersebut sekurang-kurangnya 2 laki-laki ?"/>
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/soal6" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    >
+    <VideoView
+        android:id="@+id/vv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img2"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_judul1"
+        android:textColor="@color/Hitam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Peluang"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+
+        />
+
+
+
+
+    <TextView
+
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Hitam"
+        android:textSize="16dp"
+        android:text="	\n Dalam kehidupan sehari-hari, kita sering menyatakan kalimat yang dimulai dengan kata mungkin. Hal ini mengisyaratkan bahwa kita berhadapan dengan sesuatu yang tidak pasti.\n
+
+Contoh : mungkin dalam ujian Statistika yadi akan mendapat nilai 75\n
+
+    Apabila pada kalimat yang dimulai dengan kata mungkin tersebut kita memberikan nilai numerik yang besarnya antara  o dan 1, maka kata mungkin tadi berubah  menjadi peluang.\n
+
+Contoh : Peluang Yadi akan  mendapat nilai ujian Statistika 75 adalah 0,8.\n
+
+    Yang menjadi masalah adalah, bagaimana caranya mencantumkan nilai numerik  tadi pada kalimat yang dimulai dengan kata mungkin,  untuk itu kita memerlukan beberapa definisi yang berkaitan dengan peluang.\n
+"/>
+    <TextView
+        android:textColor="@color/Hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Istilah – istilah"/>
+    <TextView
+        android:layout_gravity="center_vertical|right"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Hitam"
+        android:text="\n
+1.	Untuk mendefinisikan apa yang disebut peluang kita perhatikan contoh  sebagai berikut : Seorang istri yang sedang mengandung, menurut pemeriksaan, bayi yang sedang dikandung tidak kembar, jenis kelamin bayi yang mungkin , yang akan lahir adalah L atau P. Menurut teori himpunan ini dinyatakan dalam  Himpunan Semesta\n
+                S = { L , P }\n
+a.		Ruang Sampel (Sample Space)\n
+	Himpunan yang anggota-anggotanya adalah semua hasil yang mungkin dan berkesempatan sama dari suatu eksperimen.\n
+   a. Ruang Sampel  biasanya dinotasikan  oleh S={L,P}\n
+b. Event atau  Peristiwa adalah SUBSET atau himpunan bagian dari suatu ruang sampel dan biasanya dinotasikan dengan hurup kapital\n
+      Contoh : A = { L } ; B = { P } dll.\n
+c.	Titik Sampel (Sample Point) adalah Elemen yang ada dalam ruang sampel/event\n
+      Untuk menghitung peluang biasanya diperlukan bilangan kardinal\n
+      Yaitu N(…) contoh N(A)=1 ; N(S)= 2 dll.\n
+d.   Peristiwa Saling eksklusif   Apabila anak yang lahir itu laki-laki,       maka perempuan tidak lahir. 	Ini berarti kelahirannya saling melenyapkan, hal ini disebut 	mutually eksklusif  atau saling eksklusif\n
+
+2. 	Jika suami-istri tersebut mempunyai anak 2 orang\n
+a.	  Ruang sampel S yang menyatakan kemungkinan susunan jenis kelamin kedua anak tesebut seluruhnya :\n
+	S = {LL, PP, LP, PL}
+b.   Titik-titik sampel LL, PP, LP, PL sifatnya equally likely\n
+c.   Titik-titik sampel LL, PP, LP, PL sifatnya mutually eksklusif\n
+d.    Peristiwa lahirnya anak pertama dan anak kedua karena tidak kembar disebut peristiwa saling bebas ( Muttually independent)\n
+Berdasarkan istilah – istilah tersebut disusun definisi peluang, yang nantinya akan dipakai sebagai kriteria untuk mencantumkan bilangan pada kalimat yang dimulai dengan kata mungkin.\n
+"
+        />
+
+    <TextView
+        android:textColor="@color/Hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Definisi Peluang\n"/>
+
+    <TextView
+        android:textColor="@color/Hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="  Apabila dalam sebuah Ruang Sampel S berisi N titik sampel yang equally likely  dan  mutually eksklusif, terdapat  X buah titik sampel yang menyokong A, maka peluang terjadinya peristiwa A didefinisikan :\n"/>
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rumuspeluang" />
+
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
